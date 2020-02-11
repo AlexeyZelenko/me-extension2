@@ -1,7 +1,9 @@
 <template>
   <div>
-    <p>Hello world!</p>
+    <iframe src="http://allbible.info/lexicon/" width="900px" height="500px" allowfullscreen></iframe>
+
   </div>
+
 </template>
 
 <script>

@@ -1,6 +1,6 @@
 {
-  "name": "my-extension2",
-  "description": "A Vue.js web extension",
+  "name": "Библия2",
+  "description": "Библия",
   "version": null,
   "manifest_version": 2,
   "icons": {
@@ -8,7 +8,7 @@
     "128": "icons/icon_128.png"
   },
   "browser_action": {
-    "default_title": "my-extension2",
+    "default_title": "Библия",
     "default_popup": "popup/popup.html"
   },
   "background": {
