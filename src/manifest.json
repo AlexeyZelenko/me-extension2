@@ -1,7 +1,7 @@
 {
   "name": "Библия2",
   "description": "Библия",
-  "version": null,
+  "version": '1.1',
   "manifest_version": 2,
   "icons": {
     "48": "icons/icon_48.png",
