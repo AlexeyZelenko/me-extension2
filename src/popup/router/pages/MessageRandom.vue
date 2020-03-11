@@ -1,10 +1,36 @@
 <template>
     <div style="width: 400px; height: 350px">
         <nav>
-            <router-link to="/" href="#" class="button18">Читать Библию</router-link>
-            <router-link to="/MessageRandom" href="#" class="button18">Случайный стих из Библии</router-link>
-            <router-link to="/Donate" href="#" class="button18">Помощь проэкту</router-link>
-            <router-link to="/lexicon" href="#" class="button18">Библейский словарь</router-link>
+            <router-link
+                    to="/"
+                    href="#"
+                    class="button18">
+                Читать Библию
+            </router-link>
+            <router-link
+                    to="/MessageRandom"
+                    href="#"
+                    class="button18">
+                Случайный стих из Библии
+            </router-link>
+            <router-link
+                    to="/Donate"
+                    href="#"
+                    class="button18">
+                Помощь проэкту
+            </router-link>
+            <router-link
+                    to="/lexicon"
+                    href="#"
+                    class="button18">
+                Библейский словарь
+            </router-link>
+            <router-link
+                    to="/links"
+                    href="#"
+                    class="button18">
+                Ссылки
+            </router-link>
         </nav>
 
         <iframe id="randomVerseIframe" src="http://allbible.info/ajax/randomverse/" width="300" height="300"

@@ -1,10 +1,36 @@
 <template>
     <div style="width: 600px; height: 510px">
         <nav>
-            <router-link to="/" href="#" class="button18">Читать Библию</router-link>
-            <router-link to="/MessageRandom" href="#" class="button18">Случайный стих из Библии</router-link>
-            <router-link to="/Donate" href="#" class="button18">Помощь проэкту</router-link>
-            <router-link to="/lexicon" href="#" class="button18">Библейский словарь</router-link>
+            <router-link
+                    to="/"
+                    href="#"
+                    class="button18">
+                Читать Библию
+            </router-link>
+            <router-link
+                    to="/MessageRandom"
+                    href="#"
+                    class="button18">
+                Случайный стих из Библии
+            </router-link>
+            <router-link
+                    to="/Donate"
+                    href="#"
+                    class="button18">
+                Помощь проэкту
+            </router-link>
+            <router-link
+                    to="/lexicon"
+                    href="#"
+                    class="button18">
+                Библейский словарь
+            </router-link>
+            <router-link
+                    to="/links"
+                    href="#"
+                    class="button18">
+                Ссылки
+            </router-link>
         </nav>
         <p style="color: crimson;">{{messageDonate}}</p>
         <button class="button7" @click="Home">Вернуться к чтению Библии</button>
