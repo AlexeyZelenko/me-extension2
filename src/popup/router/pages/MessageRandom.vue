@@ -33,11 +33,20 @@
             </router-link>
         </nav>
 
-        <iframe id="randomVerseIframe" src="http://allbible.info/ajax/randomverse/" width="300" height="300"
-                title="Подкрепись! Библия онлайн." frameborder="0" scrolling="no">
+        <iframe
+                id="randomVerseIframe"
+                src="http://allbible.info/ajax/randomverse/"
+                width="300" height="300"
+                title="Подкрепись! Библия онлайн."
+                frameborder="0"
+                scrolling="no">
 
         </iframe>
-        <button @click="MessageRandom" class="button25">Помочь проэкту</button>
+        <button
+                @click="MessageRandom"
+                class="button25">
+            Помочь проэкту
+        </button>
     </div>
 </template>
 
