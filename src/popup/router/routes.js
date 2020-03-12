@@ -11,18 +11,22 @@ export default [
   },
   {
     path: '/MessageRandom',
-    component: MessageRandom
+    name: MessageRandom,
+    component: () => import(/* webpackChunkName: "about" */ './pages/MessageRandom')
   },
   {
     path: '/Donate',
-    component: Donate
+    name: Donate,
+    component: () => import(/* webpackChunkName: "about" */ './pages/Donate')
   },
   {
     path: '/lexicon',
-    component: lexicon
+    name: lexicon,
+    component: () => import(/* webpackChunkName: "about" */ './pages/lexicon')
   },
   {
     path: '/links',
-    component: links
+    name: links,
+    component: () => import(/* webpackChunkName: "about" */ './pages/links')
   }
 ]
